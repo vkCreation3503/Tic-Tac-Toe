@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Red+Hat+Mono:wght@300&family=Roboto+Slab:wght@500&display=swap');
+body{
+    background-color: rgb(255 212 255);
+}
+nav{
+    display: flex;
+    background-color: grey;
+    color: white;
+    padding: 16px 10px ;
+    border-radius: 1rem;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    letter-spacing: 4px ;
+    font-size: 25px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.gameContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+    font-family:'Courier New', Courier, monospace;
+}
+.box{
+    border: 2px solid black;
+    font-size: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    cursor: pointer;
+    background-color:aqua;
+}
+.gameInfo{
+    padding: 0 34px  ;
+    font-family: 'Red Hat Mono', monospace;
+}
+.reset{
+    margin: 0px 30px ;
+    height: 30px ;
+    width: 75px ;
+    background-color: grey;
+    color: white;
+    font-family: 'Red Hat Mono', monospace;
+}
+.reset:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+    box-shadow: 4px 4px violet;
+}
+.image{
+    display: none;
+}
+
+.top{
+    border-top: 0;
+}
+.right{
+    border-right: 0;
+}
+.bottom{
+    border-bottom: 0;
+}
+.left{
+    border-left: 0;
+}
+.foot{
+    text-align: center;
+    margin: 2rem ;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
